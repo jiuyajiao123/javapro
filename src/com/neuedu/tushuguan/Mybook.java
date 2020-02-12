@@ -3,14 +3,14 @@ package com.neuedu.tushuguan;
 /**
  * Created by 86183 on 2020/2/11.
  */
-public class Mybook {
+public class MyBook {
     private String name;
     private Double price;
     private String press;
     private String author;
     private String bookISBN;
 
-    public Mybook(String name, Double price, String press, String author, String bookISBN) {
+    public MyBook(String name, Double price, String press, String author, String bookISBN) {
         this.name = name;
         this.price = price;
         this.press = press;
